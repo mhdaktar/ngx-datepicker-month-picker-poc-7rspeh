@@ -1,0 +1,4 @@
+<form class="container">
+<input [(ngModel)]="modelDate" autocomplete="off" class="form-control" name="date" bsDatepicker [bsConfig]="{dateInputFormat: 'MM/YYYY'}" (onShown)="onOpenCalendar($event)">
+Result: <p>{{modelDate}}</p>
+</form>
